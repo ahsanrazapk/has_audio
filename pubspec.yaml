@@ -1,6 +1,6 @@
 name: has_audio
 description: A Flutter plugin for checking if a video file contains an audio track. This plugin provides a simple method to quickly determine the presence of audio in a video file on both Android and iOS platforms.
-version: 0.0.1
+version: 0.0.2
 repository: https://github.com/ahsanrazapk/has_audio/tree/master
 issue_tracker: https://github.com/ahsanrazapk/has_audio/issues
 environment:

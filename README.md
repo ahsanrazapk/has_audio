@@ -17,17 +17,17 @@ dependencies:
   has_audio: ^0.0.1
  ``` 
 
-To use the HasAudio plugin, first import it in your Dart code:
+To use the `has_audio` plugin, first import it in your Dart code:
 
 ```dart
 import 'package:has_audio/has_audio.dart';
 ```
 
-Then, you can call the `HasAudio.hasAudio` method to check if a video file contains an audio track.
+Then, you can call the `HasAudio.check` method to check if a video file contains an audio track.
 
 ```dart
 String videoPath = 'path/to/your/video/file.mp4';
-bool hasAudio = await HasAudio.hasAudio(videoPath);
+bool hasAudio = await HasAudio.check(videoPath);
 print(hasAudio ? 'The video has audio' : 'The video does not have audio');
 ```
 
