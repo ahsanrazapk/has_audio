@@ -20,10 +20,11 @@ class _MyAppState extends State<MyApp> {
     super.initState();
     initPlatformState();
   }
+
   Future<void> initPlatformState() async {
     bool check;
 
-      check = await HasAudio.check("path/to/video.mp4");
+    check = await HasAudio.check("path/to/video.mp4");
 
     if (!mounted) return;
 

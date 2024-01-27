@@ -17,7 +17,8 @@ void main() {
     setUp(() {
       TestDefaultBinaryMessengerBinding.instance.defaultBinaryMessenger
           .setMockMethodCallHandler(channel, (MethodCall methodCall) async {
-        return mockMethodChannel.invokeMethod(methodCall.method, methodCall.arguments);
+        return mockMethodChannel.invokeMethod(
+            methodCall.method, methodCall.arguments);
       });
     });
 
