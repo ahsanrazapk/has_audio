@@ -1,7 +1,7 @@
 # has_audio
 
 
-[![pub](https://img.shields.io/pub/v/flutter_spinbox.svg)](https://pub.dev/packages/flutter_spinbox)
+[![pub](https://img.shields.io/pub/v/flutter_spinbox.svg)](https://pub.dev/packages/has_audio)
 [![score](https://badges.bar/has_audio/pub%20points)](https://pub.dev/packages/has_audio/score)
 [![license: MIT](https://img.shields.io/badge/license-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
