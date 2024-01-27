@@ -14,7 +14,7 @@ To use this plugin, add `has_audio` as a dependency in your `pubspec.yaml` file.
 
 ```yaml
 dependencies:
-  has_audio: ^0.0.1
+  has_audio: ^0.0.4
  ``` 
 
 To use the `has_audio` plugin, first import it in your Dart code:
