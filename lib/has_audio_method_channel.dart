@@ -11,7 +11,7 @@ class MethodChannelHasAudio extends HasAudioInterface {
     try {
       final bool hasAudio = await _channel.invokeMethod('hasAudio', {'videoPath': videoPath});
       return hasAudio;
-    } on PlatformException catch (e) {
+    } on PlatformException catch (_) {
       return false;
     }
   }
