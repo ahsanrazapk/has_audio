@@ -1,7 +1,7 @@
 # has_audio
 
 
-[![pub](https://img.shields.io/badge/pub-v0.0.4-blue)](https://pub.dev/packages/has_audio)
+[![pub](https://img.shields.io/badge/pub-v0.0.5-blue.svg)](https://pub.dev/packages/has_audio)
 [![license: MIT](https://img.shields.io/badge/license-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 
@@ -19,7 +19,7 @@ To use this plugin, add `has_audio` as a dependency in your `pubspec.yaml` file.
 
 ```yaml
 dependencies:
-  has_audio: ^0.0.4
+  has_audio: ^0.0.5
  ``` 
 
 To use the `has_audio` plugin, first import it in your Dart code:
